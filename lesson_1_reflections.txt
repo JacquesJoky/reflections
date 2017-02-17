@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By showing the lines where two versions of a file differ,
+    diff helps us locate the differences between these two files, 
+    and thus find the bug that may be introduced.
+    Because diff compares differences between files on a line basis,
+    it is important to have short lines in these files.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By having the entire history of a file, it saves the hussle to have many versions
+    of the file saved manually.
+    
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing when to commit offers flexibility to the user,
+    allowing this one to save at meaningful steps of the project.
+    The downside of manual commits is that they are subject to human error,
+    such as forgetting to create commits after a long amount time,
+    or poor judgement about when to do so.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because projects can be made of multiple and interrelated files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By typing git log, I get the commit history of a repository.
+    And by typing the command git diff <commitID1> <commitID2>,
+    I get the list of removed and added lines of code between the two commits.  
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control allows to go back to any commit made by typing the command
+    git checkout <commitID>. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to learn more about Git for my code-based projects, such as creating a repository,
+    creating a commit... 
