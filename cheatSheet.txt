@@ -1,0 +1,13 @@
+git --version						if git installed, displays version
+sudo apt-get install git			installs git
+git clone <URL>						clones repository at given URL
+git log								displays commit history
+git config --global color.ui auto	gets colored diff output
+git diff <commitID1> <commitID2>	displays difference between 2 commits
+git checkout <commitID>				gets to state saved at givent commit
+git init							creates a repository in the directory 
+									where the command was ran
+git status							displays repository/staging area status
+gitt add <file>						add the file to the staging area
+git commit 							creates a commit
+git commit -m "Commit message"		creates a commit with the given messaage
