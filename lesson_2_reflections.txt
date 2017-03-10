@@ -20,3 +20,7 @@ How do the diagrams help you visualize the branch structure?
 
 	The commit history diagram lists all the commits and shows where the commits history branches off.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When we merge two branches, Git compares three commits to get a new one: the tips of the two branches and the commit where the commits history braanched off. Git will then know which lines were added and/or removed in order to keep and/or delete them in the new merged commit.
+
