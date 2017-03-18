@@ -29,4 +29,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you collaborate on a project, it would make more sense to ake changes in a separate branch. By that way, one can submit changes for review before merging them into master. There is more work
